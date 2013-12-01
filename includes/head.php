@@ -2,6 +2,10 @@
 <html>
 <head>
 	<title>Web Design Hall of Fame</title>
-	<link rel="stylesheet" type="text/css" href="css/styl.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!-- We could also add Respond.js if we're looking to support older versions of IE and use Media Queries -->
 </head>
 <body>

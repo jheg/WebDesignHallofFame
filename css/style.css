@@ -37,3 +37,31 @@ clear:both}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav
 -ms-transition: color .25s ease,background-color .25s ease,border-color .25s ease,opacity .5s ease;
 -o-transition: color .25s ease,background-color .25s ease,border-color .25s ease,opacity .5s ease;
 transition: color .25s ease,background-color .25s ease,border-color .25s ease,opacity .5s ease;}
+
+nav {
+	float: left;
+	overflow: visible;
+	width: 100%;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* This is seperated from the above on the basis that we'll setting multiple widths for the class for media query break points - DS */
+.container {
+	max-width:1172px;
+}
