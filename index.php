@@ -1,4 +1,3 @@
-	<div class="container">
 		<?php include('includes/head.php'); ?>
 		<?php include('includes/nav.php'); ?>
 		<!-- Start of latest winner banner -->

@@ -9,3 +9,4 @@
 	<!-- We could also add Respond.js if we're looking to support older versions of IE and use Media Queries -->
 </head>
 <body>
+<div class="container">
