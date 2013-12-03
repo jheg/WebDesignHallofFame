@@ -1,4 +1,4 @@
-		<?php include('includes/head.php'); ?>
+		<?php include('header.php'); ?>
 		<?php include('includes/nav.php'); ?>
 		<!-- Start of latest winner banner -->
 		<div>
@@ -47,7 +47,7 @@
 		<!-- end sponsor section -->
 
 		<hr>
-		<?php include('includes/footer.php'); ?>
+		<?php include('footer.php'); ?>
 	</div>
 </body>
 </html>

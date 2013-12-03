@@ -1,4 +1,4 @@
-	<?php include('includes/head.php'); ?>
+	<?php include('header.php'); ?>
 	<?php include('includes/nav.php'); ?>
 
 	<div>
@@ -27,7 +27,7 @@
 		</div>
 	</div>
 
-	<?php include('includes/footer.php'); ?>
+	<?php include('footer.php'); ?>
 
 </body>
 </html>
