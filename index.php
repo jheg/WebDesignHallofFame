@@ -2,10 +2,10 @@
 		<?php include('includes/nav.php'); ?>
 		<!-- Start of latest winner banner -->
 			<div class="grid_6">
-				<h2><span>JUNE: </span> Ruby Tuesday</h2>
-				<img src="img/">
+				<img src="images/rubytuesday.jpg">
 			</div>
-			<div class="grid_6 omega">
+			<div class="grid_6 latest_winner omega">
+				<h2><span>JUNE: </span> Ruby Tuesday</h2>
 				<p>Short description about winning site that will link through to its own <a href="winner.php">page</a></p>
 				<p>Site: <a href="http://www.rubytuesday.co.uk">rubytuesday.co.uk</a></p>
 				<p>Author: <a href="http://thewebdesignforum.co.uk/user/25-frankchester/">Frankchester</a></p>
@@ -15,10 +15,10 @@
 		<!-- end of latest winner banner -->
 		
 		<hr>
-
-		<h1>The Web Design Hall of Fame</h1>
-		<h3>Showcasing the best sites to come out of <a href="http://www.thewebdesignforum.co.uk">the web design forum</a></h3>
-
+		<div class="grid_12 clearfix">
+			<h1>The Web Design Hall of Fame</h1>
+			<h3>Showcasing the best sites to come out of <a href="http://www.thewebdesignforum.co.uk">the web design forum</a></h3>
+		</div>
 			<div class="grid_3">		
 			<!-- About tWDHoF -->
 				<section>
