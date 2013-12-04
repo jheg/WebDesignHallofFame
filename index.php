@@ -1,20 +1,20 @@
 		<?php include('header.php'); ?>
 		<?php include('includes/nav.php'); ?>
 		<!-- Start of latest winner banner -->
+		<div class="grid_12 latest_winner clearfix">
 			<div class="grid_6">
 				<img src="images/rubytuesday.jpg">
 			</div>
-			<div class="grid_6 latest_winner omega">
+			<div class="grid_6 omega">
 				<h2><span>JUNE: </span> Ruby Tuesday</h2>
-				<p>Short description about winning site that will link through to its own <a href="winner.php">page</a></p>
+				<p class="winner_short_description">Short description about winning site that will link through to its own <a href="winner.php">page</a></p>
 				<p>Site: <a href="http://www.rubytuesday.co.uk">rubytuesday.co.uk</a></p>
 				<p>Author: <a href="http://thewebdesignforum.co.uk/user/25-frankchester/">Frankchester</a></p>
 				<p>Discuss: <a href="http://thewebdesignforum.co.uk/topic/1662-june-site-of-the-month-winner-frankchester/">tWDF thread</a></p>
-				<p><span>70%</span> votes</p>
+				<p><span class="vote">70%</span> votes</p>
 			</div>
 		<!-- end of latest winner banner -->
-		
-		<hr>
+		</div>	
 		<div class="grid_12 clearfix">
 			<h1>The Web Design Hall of Fame</h1>
 			<h3>Showcasing the best sites to come out of <a href="http://www.thewebdesignforum.co.uk">the web design forum</a></h3>
@@ -56,7 +56,7 @@
 			<!-- end sponsor section -->
 			</div>
 
-		<hr>
+		
 		<?php include('footer.php'); ?>
 	</div>
 </body>
